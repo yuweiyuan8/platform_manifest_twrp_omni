@@ -10,4 +10,7 @@
     
 <!-- Include external unzip repo from CyanogenMod for toolbox/toybox support -->
     <project path="external/unzip" name="android_external_unzip" remote="TeamWin" revision="cm-14.1" />
+    
+<!-- Include external zip repo for zip support -->
+    <project path="external/zip" name="android_external_zip" remote="TeamWin" revision="android-7.1" />
 </manifest>
