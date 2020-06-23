@@ -183,7 +183,6 @@
   <remove-project name="platform/external/jsoncpp" />
   <remove-project name="platform/external/jsr305" />
   <remove-project name="platform/external/jsr330" />
-  <remove-project name="platform/external/junit" />
   <remove-project name="platform/external/kernel-headers" />
   <remove-project name="platform/external/ksoap2" />
   <remove-project name="platform/external/libavc" />
