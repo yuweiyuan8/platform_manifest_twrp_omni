@@ -12,6 +12,12 @@
     <remove-project name="android_bootable_recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
 
+<!-- Use build repo from TeamWin -->
+    <remove-project name="android_build" />
+    <project path="build" name="android_build" remote="TeamWin" revision="android-7.1" groups="pdk,tradefed" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+    </project>
+
 <!-- Include forked external unzip repo from CyanogenMod for toolbox/toybox support -->
     <project path="external/unzip" name="android_external_unzip" remote="TeamWin" revision="cm-14.1" />
 
