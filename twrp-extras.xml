@@ -18,6 +18,9 @@
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
 
+<!-- Include Magisk repo for resetprop support -->
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-7.1" />
+
 <!-- Include forked external unzip repo from CyanogenMod for toolbox/toybox support -->
     <project path="external/unzip" name="android_external_unzip" remote="TeamWin" revision="cm-14.1" />
 
